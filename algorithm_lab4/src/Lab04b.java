@@ -20,7 +20,7 @@ public class Lab04b {
     static final String AB = "0123456789";
     static SecureRandom rnd = new SecureRandom();
 
-    /* create a random string array with lenght of n 
+    /* create a random string array with lenght of n  */
     static String createTestNumber(int n) {
         StringBuilder sb = new StringBuilder(n);
         for (int i = 0; i < n; i++) {
@@ -56,6 +56,6 @@ public class Lab04b {
             System.out.println(e);
         }
     }
-*/
-   
+
+  
 }

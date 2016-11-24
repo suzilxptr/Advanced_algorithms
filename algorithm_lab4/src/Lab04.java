@@ -33,7 +33,7 @@ public class Lab04 {
  private final static int N = 10;
 
  /**
- * @param args the command line arguments */
+ * @param args the command line arguments 
  public static void main(String[] args) {
  int max, min;
 
@@ -51,4 +51,5 @@ public class Lab04 {
  System.out.println("Min index " + minmax.getMin() + ", max index " + minmax.getMax());
  System.out.println("Number of comparisions " + minmax.getComparisons());
  }
+ * */
 }
